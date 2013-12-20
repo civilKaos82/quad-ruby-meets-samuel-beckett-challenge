@@ -45,7 +45,7 @@ beckett_directions(['apple', 'pear', 'melon'])
 
 ## Learning Goals
 
-* Modeling a simple (albeit absurd and French) system of rules
+* Model a simple (albeit absurd and French) system of rules.
 * Recursion (hint hint)
 * Art! Culture!
 
@@ -67,7 +67,7 @@ Here's a video that might make the pattern clearer (watching in full screen plus
 
 Remember the precise requirements. `beckett_directions` should return a list of arrays such that
 
-1. Every subset of the input array is in the list exactly once &mdash; two arrays that differ only by their ordering count as the same actors being on stage, for our purposes.
+1. Every subset of the input array is in the list exactly once–two arrays that differ only by their ordering count as the same actors being on stage, for our purposes.
 2. Consecutive arrays in the list differs by *either* the addition or removal of a single element, representing an actor either entering or leaving the stage, respectively.
 
 ## Fun Facts!
