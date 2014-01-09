@@ -2,15 +2,17 @@
 
 ##Learning Competencies
 
+* Model a simple (albeit absurd and French) system of rules.
+* Recursion 
+* Art! Culture!
+
 ##Summary
 
 [Samuell Beckett](http://en.wikipedia.org/wiki/Samuel_Beckett) was a Nobel-prize-winning author, poet, and playwright most famously known for works like *[Waiting for Godot](http://en.wikipedia.org/wiki/Waiting_for_Godot)* and *[Endgame](http://en.wikipedia.org/wiki/Endgame_%27play%28)*. Born in Ireland in 1906, he spent most of his adult life living in Paris, France, including time as a courier for the [French Resistance](http://en.wikipedia.org/wiki/French_Resistance).
 
 "Where could this possibly be going?" you're asking yourself. Buckle up.
 
-In 1981 Beckett wrote and broadcast his play *[Quad](http://en.wikipedia.org/wiki/Quad_%27play%28)*. Here's a video, which starts a bit into the play:
-
-<iframe width="480" height="360" src="https://www.youtube.com/embed/GMnKDGfpV7c?rel=0" frameborder="0" allowfullscreen style="margin: 0px auto;display: block;"></iframe>
+In 1981 Beckett wrote and broadcast his play *[Quad](http://en.wikipedia.org/wiki/Quad_%27play%28)*. Here's a [video](https://www.youtube.com/embed/GMnKDGfpV7c?rel=0), which starts a bit into the play.
 
 *Quad*'s set consists of a small square stage. There are four actors, dressed in different-colored robes: white, blue, red, and yellow.
 
@@ -18,7 +20,7 @@ The stage begins empty and *white* enters. As the play progresses, actors enter 
 
 We're going to write a method `beckett_directions` which takes as its input an array of (unique) actors and returns a list of stage directions to create a *Quad*-like play with those actors. Rather than reporting on who entered or who left, we'll report on who is on the stage at that moment in time.
 
-## Example Return Values
+### Example Return Values
 
 Here are some examples of what `beckett_directions` should return:
 
@@ -43,15 +45,9 @@ beckett_directions(['apple', 'pear', 'melon'])
    #     ['melon']]
 ```
 
-## Learning Goals
+##Releases
 
-* Model a simple (albeit absurd and French) system of rules.
-* Recursion (hint hint)
-* Art! Culture!
-
-## Objectives
-
-### Extracting Patterns
+###Release 0 : Extracting Patterns
 
 Before you start coding, sit down and try to extract patterns from the sequences above. Don't be afraid to use pen and paper, or pull out colored index cards and use them to represent which actors are on stage at a given time.
 
@@ -59,18 +55,18 @@ If you don't see the pattern it will be impossible to implement it in Ruby. This
 
 Keep in mind the labels for the actors are arbitrary. The stage directions for `['tim', 'frank']` will be the same as the stage directions for `['linda', 'sue']`, modulo our labeling.
 
-Here's a video that might make the pattern clearer (watching in full screen plus 1080p is best):
+Here's a [video](https://www.youtube.com) that might make the pattern clearer (watching in full screen plus 1080p is best):
 
 <iframe width="780" height="440" src="https://www.youtube.com/embed/8ueegfo7VkU?hd=1&amp;showinfo=0" frameborder="0" allowfullscreen style="margin: 0 auto;display: block;"></iframe>
 
-### Implement `beckett_directions`
+###Release 1 : Implement `beckett_directions`
 
 Remember the precise requirements. `beckett_directions` should return a list of arrays such that
 
 1. Every subset of the input array is in the list exactly once–two arrays that differ only by their ordering count as the same actors being on stage, for our purposes.
 2. Consecutive arrays in the list differs by *either* the addition or removal of a single element, representing an actor either entering or leaving the stage, respectively.
 
-## Fun Facts!
+#### Fun Facts!
 
 For people who actually watched that whole video, you might object that in the actual play the same actors *do* appear on stage at the same time. In addition to the requirements above, Beckett also wanted the actor exiting the stage to be the one who had been on the stage the longest (first-in, first-out). It turned out that this was impossible after listing out all possible 4-actor stagings, so one of the requirements had to go.
 
@@ -80,9 +76,7 @@ For 5, 6, 7, and 8 actors there are actually (many) stage directions which satis
 
 If only Beckett were a programmer!
 
-##Releases
-###Release 0
 
-##Optimize Your Learning
+<!-- ##Optimize Your Learning -->
 
 ##Resources
