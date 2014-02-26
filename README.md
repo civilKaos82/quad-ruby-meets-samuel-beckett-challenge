@@ -2,9 +2,8 @@
 
 ##Learning Competencies
 
-* Model a simple (albeit absurd and French) system of rules.
-* Recursion 
-* Art! Culture!
+* Model a simple real-world system in Ruby code
+* Use recursion
 
 ##Summary
 
