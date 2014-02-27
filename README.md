@@ -3,7 +3,7 @@
 ##Learning Competencies
 
 * Model a simple real-world system in Ruby code
-* Use recursion
+* Write recursive methods
 
 ##Summary
 
