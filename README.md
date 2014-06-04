@@ -69,7 +69,7 @@ Remember the precise requirements. `beckett_directions` should return a list of 
 
 For people who actually watched that whole video, you might object that in the actual play the same actors *do* appear on stage at the same time. In addition to the requirements above, Beckett also wanted the actor exiting the stage to be the one who had been on the stage the longest (first-in, first-out). It turned out that this was impossible after listing out all possible 4-actor stagings, so one of the requirements had to go.
 
-Beckett chose to remove the requirement that the same set of actors never appear on stage twice rather than the requirement that the actor exiting the stage be the "oldest" actor. In the interest of giving you a solvable challenge, we'll be removing the former requirement.
+Beckett chose to remove the requirement that the same set of actors never appear on stage twice rather than the requirement that the actor exiting the stage be the "oldest" actor. **In the interest of giving you a solvable challenge, we'll be removing the latter requirement.**
 
 For 5, 6, 7, and 8 actors there are actually (many) stage directions which satisfy all of Beckett's requirements! They're hard to find without the aid of a computer, though. The first such set of stage directions for 7 actors took months of computing time, for example.
 
