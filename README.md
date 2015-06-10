@@ -7,11 +7,11 @@
 
 ##Summary
 
-[Samuell Beckett](http://en.wikipedia.org/wiki/Samuel_Beckett) was a Nobel-prize-winning author, poet, and playwright most famously known for works like *[Waiting for Godot](http://en.wikipedia.org/wiki/Waiting_for_Godot)* and *[Endgame](http://en.wikipedia.org/wiki/Endgame_%27play%28)*. Born in Ireland in 1906, he spent most of his adult life living in Paris, France, including time as a courier for the [French Resistance](http://en.wikipedia.org/wiki/French_Resistance).
+[Samuell Beckett](http://en.wikipedia.org/wiki/Samuel_Beckett) was a Nobel-prize-winning author, poet, and playwright most famously known for works like *[Waiting for Godot](http://en.wikipedia.org/wiki/Waiting_for_Godot)* and *[Endgame](http://en.wikipedia.org/wiki/Endgame_%28play%29)*. Born in Ireland in 1906, he spent most of his adult life living in Paris, France, including time as a courier for the [French Resistance](http://en.wikipedia.org/wiki/French_Resistance).
 
 "Where could this possibly be going?" you're asking yourself. Buckle up.
 
-In 1981 Beckett wrote and broadcast his play *[Quad](http://en.wikipedia.org/wiki/Quad_%27play%28)*. Here's a [video](https://www.youtube.com/embed/GMnKDGfpV7c?rel=0), which starts a bit into the play.
+In 1981 Beckett wrote and broadcast his play *[Quad](http://en.wikipedia.org/wiki/Quad_%28play%29)*. Here's a [video](https://www.youtube.com/embed/GMnKDGfpV7c?rel=0), which starts a bit into the play.
 
 *Quad*'s set consists of a small square stage. There are four actors, dressed in different-colored robes: white, blue, red, and yellow.
 
