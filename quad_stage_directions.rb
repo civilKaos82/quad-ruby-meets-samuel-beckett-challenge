@@ -14,6 +14,6 @@
 #      the removal or addition of a single actor, representing
 #      that actor entering or exiting the stage, respectively
 
-def beckett_directions(actors)
+def quad_stage_directions(actors)
 end
- 
+
