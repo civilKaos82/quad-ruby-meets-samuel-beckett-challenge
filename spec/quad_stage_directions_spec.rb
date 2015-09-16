@@ -1,4 +1,4 @@
-require_relative '../beckett_directions'
+require_relative '../quad_stage_directions'
 
 describe 'beckett_directions' do
   
