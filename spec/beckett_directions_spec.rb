@@ -1,4 +1,4 @@
-require_relative 'beckett_directions'
+require_relative '../beckett_directions'
 
 describe 'beckett_directions' do
   
