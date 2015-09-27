@@ -1,7 +1,7 @@
 # Stage Directions for Quad
 
 ## Summary
-[Samuell Beckett](http://en.wikipedia.org/wiki/Samuel_Beckett) was a Nobel-prize-winning author, poet, and playwright.  In 1981 Beckett wrote and broadcast his play *[Quad](http://en.wikipedia.org/wiki/Quad_%28play%29)*. There are four actors in the play, each dressed in a colored robe:  white, blue, red, and yellow.  The set consists of a small square stage. The stage begins empty.  Then the first actors enters.  As the play progresses, actors enter and exit one at a time.  But the stage directions have an interesting property: each combination of actors appears on the stage once and only once throughout the play, and the play ends once the final actor is on the stage.
+[Samuel Beckett](http://en.wikipedia.org/wiki/Samuel_Beckett) was a Nobel-prize-winning author, poet, and playwright.  In 1981 Beckett wrote and broadcast his play *[Quad](http://en.wikipedia.org/wiki/Quad_%28play%29)*. There are four actors in the play, each dressed in a colored robe:  white, blue, red, and yellow.  The set consists of a small square stage. The stage begins empty.  Then the first actor enters.  As the play progresses, actors enter and exit one at a time.  But the stage directions have an interesting property: each combination of actors appears on the stage once and only once throughout the play, and the play ends once the final actor is on the stage.
 
 We're going to write a `quad_stage_directions` method which takes as its input an array of unique actors and returns a list of stage directions to create a *Quad*-like play with those actors. Rather than reporting on who entered or who left, we'll report on who is on the stage at that moment in time.
 
@@ -21,7 +21,7 @@ If the description of the play is a little opaque, there is a [video](https://ww
 
 ## Releases
 ### Release 0: Pseudocode the Algorithm
-Before we start coding, we need to understand how the the stage directions work.  We've been provided with some [example output], and there are also tests that describe the behavior of our method.  Before we begin, let's take some time to extract patterns from the expected outputs.  If necessary, we should use pen and paper, colored index cards, stickies notes, or whatever and use them to represent which actors are on stage at a given time.
+Before we start coding, we need to understand how the the stage directions work.  We've been provided with some [example output], and there are also tests that describe the behavior of our method.  Before we begin, let's take some time to extract patterns from the expected outputs.  If necessary, we should use pen and paper, colored index cards, sticky notes, or whatever and use them to represent which actors are on stage at a given time.
 
 If we don't see the pattern it will be impossible to implement it in Ruby.  Do we see how we can get the stage directions for three actors from the directions for two?  Or the directions for four actors from those for three?  Does an iterative or recursive solution feel more appropriate?
 
