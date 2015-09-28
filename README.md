@@ -25,7 +25,7 @@ Before we start coding, we need to understand how the the stage directions work.
 
 If we don't see the pattern it will be impossible to implement it in Ruby.  Do we see how we can get the stage directions for three actors from the directions for two?  Or the directions for four actors from those for three?  Does an iterative or recursive solution feel more appropriate?
 
-Once we see the pattern, let's begin to pseudocode an algorithm that will build the stage directions for us.
+Once we see the pattern, let's pseudocode an algorithm that will build the stage directions for us.
 
 
 ### Release 1: Translate from Pseudocode to Ruby
