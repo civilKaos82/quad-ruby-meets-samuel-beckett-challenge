@@ -16,7 +16,7 @@ Following these rules, our method should be able to create stage directions for 
 
 
 ### Quad Video
-If the description of the play is a little opaque, there is a [video](https://www.youtube.com/embed/GMnKDGfpV7c?rel=0) which will give you the general notion.  However, note that this video does not exactly follow the same rules we'll be working with[^fn-video_differences_footnote].  It also starts somewhere in the middle of the play.
+If the description of the play is a little opaque, there is a [video](https://www.youtube.com/embed/GMnKDGfpV7c?rel=0) which will give you the general notion.  However, note that this video does not exactly follow the same rules we'll be working with <sup id="footnote-link-1">[1](#footnote-1)</sup>.  It also starts somewhere in the middle of the play.
 
 
 ## Releases
@@ -36,6 +36,6 @@ Now it's time to implement our thinking into code.  We have tests that can guide
 This is another challenge designed for us to practice problem solving.  We've had to understand a set of rules and then translate them into code.
 
 
-[fn-video_differences_footnote]:  Anyone who watched the whole video might have noticed that the same actors appear on stage at the same time. In addition to his other requirements, Beckett also wanted the actor exiting the stage to be the one who had been on the stage the longest (i.e., first-in, first-out). It turned out that this was impossible after listing out all possible 4-actor stagings, so one of the requirements had to go.  Beckett chose to remove the requirement that the same set of actors never appear on stage twice rather than the requirement that the actor exiting the stage be the actor who's been on stage the longest. In the interest of creating a solvable challenge, the first-in, first-out requirement was removed.  For five, six, seven, and eight actors there are actually many different sets of stage directions which satisfy all of Beckett's requirements, but they're hard to find without the aid of a computer. The first such set of stage directions for seven actors took months of computing time.
+<span id="footnote-1>1</span>:  Anyone who watched the whole video might have noticed that the same actors appear on stage at the same time. In addition to his other requirements, Beckett also wanted the actor exiting the stage to be the one who had been on the stage the longest (i.e., first-in, first-out). It turned out that this was impossible after listing out all possible 4-actor stagings, so one of the requirements had to go.  Beckett chose to remove the requirement that the same set of actors never appear on stage twice rather than the requirement that the actor exiting the stage be the actor who's been on stage the longest. In the interest of creating a solvable challenge, the first-in, first-out requirement was removed.  For five, six, seven, and eight actors there are actually many different sets of stage directions which satisfy all of Beckett's requirements, but they're hard to find without the aid of a computer. The first such set of stage directions for seven actors took months of computing time.  [↩](#footnote-link-1)
 
 [example output]: readme-assets/example-output.md
